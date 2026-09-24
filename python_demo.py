@@ -1,9 +1,6 @@
-""" 
-r=int(input("enter radius"))
-l=int(input("enter length"))
-a=3.14*r*l
-print("csa is:",a)
- """
+a=1
+while a<10:
+    print(a,end=" ")
+    a+=1
+print("\nloop over")
 
-for each in [1,2,3,4,5]:
-    print(each)
