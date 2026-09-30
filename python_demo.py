@@ -1,10 +1,14 @@
-my_list1=[2,3,4,5,6,7,8,9,10]
+a = int(input("Enter the no of rows:"))
+symbol = input("Enter your fav symbol:")
 
-x=1
-
-for i in my_list1:
-    x=x*i
-print(x)
+x = 1
+while x>=a:
+    y = 1
+    while y>=a:
+        print(symbol,end=" ")
+        y -=1
+    x -=1
+    print()
 
 
 
